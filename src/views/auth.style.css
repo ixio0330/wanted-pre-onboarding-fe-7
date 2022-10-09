@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.auth_view {
+  width: 350px;
+  margin: 30vh auto 0;
+  background-color: #fff;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.auth_view button {
+  all: unset;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  transition: .2s;
+}
+
+.auth_view button:active {
+  background-color: rgb(204, 204, 204);
+}
+
+.auth_view button:disabled {
+  cursor: auto;
+  opacity: 0.7;
+}
+
+.auth_view button:disabled:active {
+  background-color: #ddd;
+}
+
+.auth_view .link_sing {
+  color: #999;
+}
+
+.auth_view .link_sing:hover {
+  color: #000;
+}

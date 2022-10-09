@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+.todo_item {
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo {
+  width: 70%;
+}
+
+.todo_complete {
+  opacity: 0.5;
+}
+
+.todo_checkbox{
+  display: none;
+}
+
+.todo_checkbox + label .todo_custom_checkbox {
+  width: 12px;
+  height: 12px;
+  display: inline-block;
+  border:2px solid #ddd;
+  position: relative;
+  margin-right: 7px;
+  border-radius: 50%;
+}
+
+.todo_checkbox:checked + label .todo_custom_checkbox {
+  border-color: #5cb85c
+}
+
+.todo_checkbox:checked + label .todo_custom_checkbox::after {
+  content:'✔';
+  color: #5cb85c;
+  font-weight: bold;
+  font-size: 9px;
+  width: 9px;
+  height: 9px;
+  text-align: center;
+  position: absolute;
+  left: 1px;
+  top: -1px;
+}

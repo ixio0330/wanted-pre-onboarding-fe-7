@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.todo_view .todo_form {
+  margin: 30px 0;
+}
+
+.todo_view .todo_form input {
+  all: unset;
+  width: 90%;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.todo_view .todo_form input:focus {
+  border-color: rgb(179, 179, 179);
+}
+
+.todo_view .todo_form button {
+  all: unset;
+  width: 10%;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #ddd;
+  padding: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.todo_view .todo_form button:active {
+  background-color: rgb(204, 204, 204);
+  border-color: rgb(204, 204, 204);
+}

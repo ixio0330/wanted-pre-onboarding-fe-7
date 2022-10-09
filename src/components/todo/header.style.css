@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: rgb(46, 46, 46);
+  height: 70px;
+  color: #fff;
+}
+
+header span {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: .2s;
+}
+
+header span:hover {
+  opacity: 1;
+}

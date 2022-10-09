@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.todo_no_data {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10vh;
+}
+.todo_list {
+  padding: 0;
+  list-style: none;
+}

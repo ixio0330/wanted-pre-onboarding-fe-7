@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+.input_wrap .input {
+  all: unset;
+  border: 1px solid #ddd;
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+
+.input_wrap .input_valid_message {
+  color: rgb(255, 97, 70);
+}

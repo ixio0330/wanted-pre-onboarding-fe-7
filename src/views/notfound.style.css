@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+.notfound_view {
+  width: 440px;
+  margin: 0 auto;
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  opacity: 0.5;
+  transition: .2s;
+}
+
+a:hover {
+  opacity: 1;
+}
