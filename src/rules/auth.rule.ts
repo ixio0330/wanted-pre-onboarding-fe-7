@@ -1,5 +1,5 @@
 const inputRules = {
-  email: (value: String) => {
+  email: (value: string) => {
     if (!value) return;
     if (!value.includes('@')) {
       return '이메일 형식이 올바르지 않습니다.';
