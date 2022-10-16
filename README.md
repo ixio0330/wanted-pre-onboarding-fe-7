@@ -2,6 +2,17 @@
 
 [배포 사이트](https://wanted-pre-onboarding-fe-7-gamma.vercel.app/)에서 확인하실 수 있습니다.
 
+## 프로젝트 실행 방법
+
+프로젝트를 다운 받은 후, 터미널에 아래 명령어를 차례로 입력해주세요.
+
+```
+$ npm i
+$ npm start
+```
+
+[http://localhost:3000](http://localhost:3000)로 접속하면 프로젝트를 확인할 수 있습니다.
+
 ## 1. 로그인 / 회원가입
 
 - 경로에 로그인 / 회원가입 기능을 개발해주세요.
